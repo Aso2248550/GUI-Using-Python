@@ -1,0 +1,11 @@
+import tkinter as tk
+import serial as ser
+
+root=Tk()
+root.title("Serial Port that available")
+root.geometry('300x300')
+
+lbl=tk.lable(text="availab ports are")
+lbl.pack()
+
+root.mainloop()
